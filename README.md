@@ -2,7 +2,8 @@
 
 Material de la ponencia de **Pablo Oca Galeano** en la **PyCon España 2026** (Barcelona, 8 de noviembre de 2026).
 
-📄 **[Diapositivas (PDF)](presentacion/presentacion.pdf)**
+📄 **[Diapositivas (PDF)](presentacion/presentacion.pdf)**  
+📦 **Librería: [bioScience](https://github.com/aureliolfdez/bioscience)**, en la que se publicarán las seis implementaciones de BiBit y BCCA
 
 ¿Hasta dónde llega Python en problemas de alta intensidad computacional? La charla parte de dos algoritmos de *biclustering* sobre matrices de expresión génica, **BiBit** (matrices binarias) y **BCCA** (correlación sobre matrices continuas), y compara seis implementaciones de cada uno:
 
@@ -17,7 +18,7 @@ Material de la ponencia de **Pablo Oca Galeano** en la **PyCon España 2026** (B
 
 ## Resultados
 
-Todos los modos se ejecutaron en la misma máquina, sobre las mismas matrices sintéticas y con un límite de **30 minutos por ejecución**. El tiempo medido es solo el de la llamada al algoritmo: antes de cronometrar se hace un calentamiento para que la compilación JIT de Numba y la creación del contexto CUDA no cuenten.
+Todas las medidas se hicieron con la librería [bioScience](https://github.com/aureliolfdez/bioscience). Todos los modos se ejecutaron en la misma máquina, sobre las mismas matrices sintéticas y con un límite de **30 minutos por ejecución**. El tiempo medido es solo el de la llamada al algoritmo: antes de cronometrar se hace un calentamiento para que la compilación JIT de Numba y la creación del contexto CUDA no cuenten.
 
 **Máquina (AWS `g5.8xlarge`):** AMD EPYC 7R32 (32 vCPU), 124 GiB de RAM, NVIDIA A10G (24 GB) · Python 3.12.3, NumPy 2.5.4, Numba 0.68.0, Cython 3.3.0, CUDA 13.2.
 
