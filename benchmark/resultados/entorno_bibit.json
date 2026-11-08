@@ -1,0 +1,16 @@
+{
+  "fecha": "2026-10-24T09:02:52",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "plataforma": "Linux-6.17.0-1015-aws-x86_64-with-glibc2.39",
+  "cpus_logicas": 32,
+  "cpu": "Model name:                              AMD EPYC 7R32",
+  "memoria": "total        used        free      shared  buff/cache   available\nMem:           124Gi       2.7Gi       121Gi       2.9Mi       1.2Gi       121Gi",
+  "gpu": "NVIDIA A10G, 23028 MiB, 595.71.05",
+  "nvcc": "Build cuda_13.2.r13.2/compiler.37434383_0",
+  "numpy": "2.5.4",
+  "numba": "0.68.0",
+  "Cython": "3.3.0",
+  "pandas": "3.1.0",
+  "bioscience": "?",
+  "bioscience_ruta": "/home/ubuntu/venv/lib/python3.12/site-packages/bioscience"
+}

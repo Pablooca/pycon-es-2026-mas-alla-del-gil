@@ -1,0 +1,549 @@
+[2026-10-24 09:02:55] === BCCA | límite 0.5h | modos [1, 2, 3, 4, 5, 6] | GPU: NVIDIA A10G, 23028 MiB, 595.71.05 ===
+[2026-10-24 09:02:55] 78 matrices en /home/ubuntu/benchmark_v2/matrices_bcca; 468 ejecuciones pendientes
+[2026-10-24 09:02:55] [1/78] 50x50_var1.csv
+[2026-10-24 09:02:58]    CPU Secuencial              0.918 s   1225 biclústeres
+[2026-10-24 09:03:05]    Numba Paralelo CPU          0.007 s   1225 biclústeres
+[2026-10-24 09:03:08]    Numba GPU                   0.008 s   1225 biclústeres
+[2026-10-24 09:03:10]    Cython Secuencial           0.013 s   1225 biclústeres
+[2026-10-24 09:03:13]    Cython OpenMP               0.007 s   1225 biclústeres
+[2026-10-24 09:03:15]    Cython GPU                  0.008 s   1225 biclústeres
+[2026-10-24 09:03:15] [2/78] 50x50_var2.csv
+[2026-10-24 09:03:19]    CPU Secuencial              0.997 s   1225 biclústeres
+[2026-10-24 09:03:25]    Numba Paralelo CPU          0.007 s   1225 biclústeres
+[2026-10-24 09:03:28]    Numba GPU                   0.008 s   1225 biclústeres
+[2026-10-24 09:03:30]    Cython Secuencial           0.013 s   1225 biclústeres
+[2026-10-24 09:03:32]    Cython OpenMP               0.007 s   1225 biclústeres
+[2026-10-24 09:03:34]    Cython GPU                  0.008 s   1225 biclústeres
+[2026-10-24 09:03:34] [3/78] 50x50_var3.csv
+[2026-10-24 09:03:37]    CPU Secuencial              0.923 s   1225 biclústeres
+[2026-10-24 09:03:44]    Numba Paralelo CPU          0.007 s   1225 biclústeres
+[2026-10-24 09:03:47]    Numba GPU                   0.008 s   1225 biclústeres
+[2026-10-24 09:03:49]    Cython Secuencial           0.012 s   1225 biclústeres
+[2026-10-24 09:03:51]    Cython OpenMP               0.007 s   1225 biclústeres
+[2026-10-24 09:03:53]    Cython GPU                  0.008 s   1225 biclústeres
+[2026-10-24 09:03:53] [4/78] 50x50_var4.csv
+[2026-10-24 09:03:56]    CPU Secuencial              0.930 s   1225 biclústeres
+[2026-10-24 09:04:03]    Numba Paralelo CPU          0.007 s   1225 biclústeres
+[2026-10-24 09:04:06]    Numba GPU                   0.008 s   1225 biclústeres
+[2026-10-24 09:04:08]    Cython Secuencial           0.012 s   1225 biclústeres
+[2026-10-24 09:04:10]    Cython OpenMP               0.007 s   1225 biclústeres
+[2026-10-24 09:04:12]    Cython GPU                  0.008 s   1225 biclústeres
+[2026-10-24 09:04:12] [5/78] 50x50_var5.csv
+[2026-10-24 09:04:15]    CPU Secuencial              0.942 s   1225 biclústeres
+[2026-10-24 09:04:22]    Numba Paralelo CPU          0.021 s   1225 biclústeres
+[2026-10-24 09:04:24]    Numba GPU                   0.008 s   1225 biclústeres
+[2026-10-24 09:04:27]    Cython Secuencial           0.012 s   1225 biclústeres
+[2026-10-24 09:04:29]    Cython OpenMP               0.012 s   1225 biclústeres
+[2026-10-24 09:04:31]    Cython GPU                  0.008 s   1225 biclústeres
+[2026-10-24 09:04:31] [6/78] 50x50_var6.csv
+[2026-10-24 09:04:34]    CPU Secuencial              0.914 s   1225 biclústeres
+[2026-10-24 09:04:40]    Numba Paralelo CPU          0.007 s   1225 biclústeres
+[2026-10-24 09:04:43]    Numba GPU                   0.009 s   1225 biclústeres
+[2026-10-24 09:04:45]    Cython Secuencial           0.012 s   1225 biclústeres
+[2026-10-24 09:04:48]    Cython OpenMP               0.007 s   1225 biclústeres
+[2026-10-24 09:04:50]    Cython GPU                  0.008 s   1225 biclústeres
+[2026-10-24 09:04:50] [7/78] 75x75_var1.csv
+[2026-10-24 09:04:55]    CPU Secuencial              3.178 s   2775 biclústeres
+[2026-10-24 09:05:02]    Numba Paralelo CPU          0.016 s   2775 biclústeres
+[2026-10-24 09:05:04]    Numba GPU                   0.019 s   2775 biclústeres
+[2026-10-24 09:05:07]    Cython Secuencial           0.046 s   2775 biclústeres
+[2026-10-24 09:05:09]    Cython OpenMP               0.020 s   2775 biclústeres
+[2026-10-24 09:05:11]    Cython GPU                  0.018 s   2775 biclústeres
+[2026-10-24 09:05:11] [8/78] 75x75_var2.csv
+[2026-10-24 09:05:17]    CPU Secuencial              3.417 s   2775 biclústeres
+[2026-10-24 09:05:23]    Numba Paralelo CPU          0.029 s   2775 biclústeres
+[2026-10-24 09:05:26]    Numba GPU                   0.019 s   2775 biclústeres
+[2026-10-24 09:05:28]    Cython Secuencial           0.048 s   2775 biclústeres
+[2026-10-24 09:05:30]    Cython OpenMP               0.016 s   2775 biclústeres
+[2026-10-24 09:05:33]    Cython GPU                  0.018 s   2775 biclústeres
+[2026-10-24 09:05:33] [9/78] 75x75_var3.csv
+[2026-10-24 09:05:38]    CPU Secuencial              3.162 s   2775 biclústeres
+[2026-10-24 09:05:44]    Numba Paralelo CPU          0.028 s   2775 biclústeres
+[2026-10-24 09:05:47]    Numba GPU                   0.019 s   2775 biclústeres
+[2026-10-24 09:05:49]    Cython Secuencial           0.046 s   2775 biclústeres
+[2026-10-24 09:05:51]    Cython OpenMP               0.016 s   2775 biclústeres
+[2026-10-24 09:05:54]    Cython GPU                  0.018 s   2775 biclústeres
+[2026-10-24 09:05:54] [10/78] 75x75_var4.csv
+[2026-10-24 09:05:59]    CPU Secuencial              3.168 s   2775 biclústeres
+[2026-10-24 09:06:05]    Numba Paralelo CPU          0.028 s   2775 biclústeres
+[2026-10-24 09:06:08]    Numba GPU                   0.019 s   2775 biclústeres
+[2026-10-24 09:06:11]    Cython Secuencial           0.046 s   2775 biclústeres
+[2026-10-24 09:06:13]    Cython OpenMP               0.017 s   2775 biclústeres
+[2026-10-24 09:06:15]    Cython GPU                  0.018 s   2775 biclústeres
+[2026-10-24 09:06:15] [11/78] 75x75_var5.csv
+[2026-10-24 09:06:20]    CPU Secuencial              3.170 s   2775 biclústeres
+[2026-10-24 09:06:27]    Numba Paralelo CPU          0.016 s   2775 biclústeres
+[2026-10-24 09:06:30]    Numba GPU                   0.019 s   2775 biclústeres
+[2026-10-24 09:06:32]    Cython Secuencial           0.046 s   2775 biclústeres
+[2026-10-24 09:06:34]    Cython OpenMP               0.016 s   2775 biclústeres
+[2026-10-24 09:06:36]    Cython GPU                  0.018 s   2775 biclústeres
+[2026-10-24 09:06:36] [12/78] 75x75_var6.csv
+[2026-10-24 09:06:41]    CPU Secuencial              3.162 s   2775 biclústeres
+[2026-10-24 09:06:48]    Numba Paralelo CPU          0.016 s   2775 biclústeres
+[2026-10-24 09:06:51]    Numba GPU                   0.019 s   2775 biclústeres
+[2026-10-24 09:06:53]    Cython Secuencial           0.046 s   2775 biclústeres
+[2026-10-24 09:06:55]    Cython OpenMP               0.016 s   2775 biclústeres
+[2026-10-24 09:06:57]    Cython GPU                  0.018 s   2775 biclústeres
+[2026-10-24 09:06:57] [13/78] 80x120_var1.csv
+[2026-10-24 09:07:05]    CPU Secuencial              5.875 s   3160 biclústeres
+[2026-10-24 09:07:12]    Numba Paralelo CPU          0.024 s   3160 biclústeres
+[2026-10-24 09:07:15]    Numba GPU                   0.028 s   3160 biclústeres
+[2026-10-24 09:07:17]    Cython Secuencial           0.108 s   3160 biclústeres
+[2026-10-24 09:07:19]    Cython OpenMP               0.022 s   3160 biclústeres
+[2026-10-24 09:07:21]    Cython GPU                  0.027 s   3160 biclústeres
+[2026-10-24 09:07:21] [14/78] 80x120_var2.csv
+[2026-10-24 09:07:30]    CPU Secuencial              6.423 s   3160 biclústeres
+[2026-10-24 09:07:36]    Numba Paralelo CPU          0.025 s   3160 biclústeres
+[2026-10-24 09:07:39]    Numba GPU                   0.029 s   3160 biclústeres
+[2026-10-24 09:07:41]    Cython Secuencial           0.115 s   3160 biclústeres
+[2026-10-24 09:07:44]    Cython OpenMP               0.023 s   3160 biclústeres
+[2026-10-24 09:07:46]    Cython GPU                  0.028 s   3160 biclústeres
+[2026-10-24 09:07:46] [15/78] 80x120_var3.csv
+[2026-10-24 09:07:54]    CPU Secuencial              5.930 s   3160 biclústeres
+[2026-10-24 09:08:00]    Numba Paralelo CPU          0.024 s   3160 biclústeres
+[2026-10-24 09:08:03]    Numba GPU                   0.027 s   3160 biclústeres
+[2026-10-24 09:08:06]    Cython Secuencial           0.109 s   3160 biclústeres
+[2026-10-24 09:08:08]    Cython OpenMP               0.024 s   3160 biclústeres
+[2026-10-24 09:08:10]    Cython GPU                  0.026 s   3160 biclústeres
+[2026-10-24 09:08:10] [16/78] 80x120_var4.csv
+[2026-10-24 09:08:18]    CPU Secuencial              5.901 s   3160 biclústeres
+[2026-10-24 09:08:24]    Numba Paralelo CPU          0.025 s   3160 biclústeres
+[2026-10-24 09:08:27]    Numba GPU                   0.028 s   3160 biclústeres
+[2026-10-24 09:08:30]    Cython Secuencial           0.108 s   3160 biclústeres
+[2026-10-24 09:08:32]    Cython OpenMP               0.025 s   3160 biclústeres
+[2026-10-24 09:08:34]    Cython GPU                  0.027 s   3160 biclústeres
+[2026-10-24 09:08:34] [17/78] 80x120_var5.csv
+[2026-10-24 09:08:42]    CPU Secuencial              5.894 s   3160 biclústeres
+[2026-10-24 09:08:48]    Numba Paralelo CPU          0.042 s   3160 biclústeres
+[2026-10-24 09:08:51]    Numba GPU                   0.028 s   3160 biclústeres
+[2026-10-24 09:08:54]    Cython Secuencial           0.108 s   3160 biclústeres
+[2026-10-24 09:08:56]    Cython OpenMP               0.025 s   3160 biclústeres
+[2026-10-24 09:08:58]    Cython GPU                  0.027 s   3160 biclústeres
+[2026-10-24 09:08:58] [18/78] 80x120_var6.csv
+[2026-10-24 09:09:06]    CPU Secuencial              5.924 s   3160 biclústeres
+[2026-10-24 09:09:12]    Numba Paralelo CPU          0.024 s   3160 biclústeres
+[2026-10-24 09:09:15]    Numba GPU                   0.027 s   3160 biclústeres
+[2026-10-24 09:09:18]    Cython Secuencial           0.108 s   3160 biclústeres
+[2026-10-24 09:09:20]    Cython OpenMP               0.023 s   3160 biclústeres
+[2026-10-24 09:09:22]    Cython GPU                  0.026 s   3160 biclústeres
+[2026-10-24 09:09:22] [19/78] 120x80_var1.csv
+[2026-10-24 09:09:33]    CPU Secuencial              8.618 s   7140 biclústeres
+[2026-10-24 09:09:39]    Numba Paralelo CPU          0.042 s   7140 biclústeres
+[2026-10-24 09:09:42]    Numba GPU                   0.041 s   7140 biclústeres
+[2026-10-24 09:09:44]    Cython Secuencial           0.129 s   7140 biclústeres
+[2026-10-24 09:09:47]    Cython OpenMP               0.043 s   7140 biclústeres
+[2026-10-24 09:09:49]    Cython GPU                  0.041 s   7140 biclústeres
+[2026-10-24 09:09:49] [20/78] 120x80_var2.csv
+[2026-10-24 09:10:01]    CPU Secuencial              9.472 s   7140 biclústeres
+[2026-10-24 09:10:07]    Numba Paralelo CPU          0.043 s   7140 biclústeres
+[2026-10-24 09:10:10]    Numba GPU                   0.041 s   7140 biclústeres
+[2026-10-24 09:10:12]    Cython Secuencial           0.138 s   7140 biclústeres
+[2026-10-24 09:10:14]    Cython OpenMP               0.042 s   7140 biclústeres
+[2026-10-24 09:10:17]    Cython GPU                  0.041 s   7140 biclústeres
+[2026-10-24 09:10:17] [21/78] 120x80_var3.csv
+[2026-10-24 09:10:28]    CPU Secuencial              8.757 s   7140 biclústeres
+[2026-10-24 09:10:34]    Numba Paralelo CPU          0.042 s   7140 biclústeres
+[2026-10-24 09:10:37]    Numba GPU                   0.041 s   7140 biclústeres
+[2026-10-24 09:10:39]    Cython Secuencial           0.130 s   7140 biclústeres
+[2026-10-24 09:10:41]    Cython OpenMP               0.041 s   7140 biclústeres
+[2026-10-24 09:10:44]    Cython GPU                  0.041 s   7140 biclústeres
+[2026-10-24 09:10:44] [22/78] 120x80_var4.csv
+[2026-10-24 09:10:55]    CPU Secuencial              8.736 s   7140 biclústeres
+[2026-10-24 09:11:01]    Numba Paralelo CPU          0.061 s   7140 biclústeres
+[2026-10-24 09:11:04]    Numba GPU                   0.041 s   7140 biclústeres
+[2026-10-24 09:11:06]    Cython Secuencial           0.131 s   7140 biclústeres
+[2026-10-24 09:11:08]    Cython OpenMP               0.042 s   7140 biclústeres
+[2026-10-24 09:11:11]    Cython GPU                  0.041 s   7140 biclústeres
+[2026-10-24 09:11:11] [23/78] 120x80_var5.csv
+[2026-10-24 09:11:21]    CPU Secuencial              8.696 s   7140 biclústeres
+[2026-10-24 09:11:28]    Numba Paralelo CPU          0.041 s   7140 biclústeres
+[2026-10-24 09:11:31]    Numba GPU                   0.041 s   7140 biclústeres
+[2026-10-24 09:11:33]    Cython Secuencial           0.130 s   7140 biclústeres
+[2026-10-24 09:11:35]    Cython OpenMP               0.042 s   7140 biclústeres
+[2026-10-24 09:11:38]    Cython GPU                  0.041 s   7140 biclústeres
+[2026-10-24 09:11:38] [24/78] 120x80_var6.csv
+[2026-10-24 09:11:49]    CPU Secuencial              8.850 s   7140 biclústeres
+[2026-10-24 09:11:55]    Numba Paralelo CPU          0.056 s   7140 biclústeres
+[2026-10-24 09:11:58]    Numba GPU                   0.041 s   7140 biclústeres
+[2026-10-24 09:12:00]    Cython Secuencial           0.130 s   7140 biclústeres
+[2026-10-24 09:12:02]    Cython OpenMP               0.047 s   7140 biclústeres
+[2026-10-24 09:12:05]    Cython GPU                  0.041 s   7140 biclústeres
+[2026-10-24 09:12:05] [25/78] 100x100_var1.csv
+[2026-10-24 09:12:14]    CPU Secuencial              7.506 s   4950 biclústeres
+[2026-10-24 09:12:21]    Numba Paralelo CPU          0.034 s   4950 biclústeres
+[2026-10-24 09:12:24]    Numba GPU                   0.034 s   4950 biclústeres
+[2026-10-24 09:12:26]    Cython Secuencial           0.126 s   4950 biclústeres
+[2026-10-24 09:12:28]    Cython OpenMP               0.034 s   4950 biclústeres
+[2026-10-24 09:12:31]    Cython GPU                  0.033 s   4950 biclústeres
+[2026-10-24 09:12:31] [26/78] 100x100_var2.csv
+[2026-10-24 09:12:41]    CPU Secuencial              8.256 s   4950 biclústeres
+[2026-10-24 09:12:47]    Numba Paralelo CPU          0.034 s   4950 biclústeres
+[2026-10-24 09:12:50]    Numba GPU                   0.034 s   4950 biclústeres
+[2026-10-24 09:12:52]    Cython Secuencial           0.133 s   4950 biclústeres
+[2026-10-24 09:12:55]    Cython OpenMP               0.032 s   4950 biclústeres
+[2026-10-24 09:12:57]    Cython GPU                  0.034 s   4950 biclústeres
+[2026-10-24 09:12:57] [27/78] 100x100_var3.csv
+[2026-10-24 09:13:07]    CPU Secuencial              7.792 s   4950 biclústeres
+[2026-10-24 09:13:13]    Numba Paralelo CPU          0.034 s   4950 biclústeres
+[2026-10-24 09:13:16]    Numba GPU                   0.033 s   4950 biclústeres
+[2026-10-24 09:13:18]    Cython Secuencial           0.126 s   4950 biclústeres
+[2026-10-24 09:13:21]    Cython OpenMP               0.035 s   4950 biclústeres
+[2026-10-24 09:13:23]    Cython GPU                  0.033 s   4950 biclústeres
+[2026-10-24 09:13:23] [28/78] 100x100_var4.csv
+[2026-10-24 09:13:33]    CPU Secuencial              7.695 s   4950 biclústeres
+[2026-10-24 09:13:39]    Numba Paralelo CPU          0.033 s   4950 biclústeres
+[2026-10-24 09:13:42]    Numba GPU                   0.033 s   4950 biclústeres
+[2026-10-24 09:13:44]    Cython Secuencial           0.126 s   4950 biclústeres
+[2026-10-24 09:13:46]    Cython OpenMP               0.034 s   4950 biclústeres
+[2026-10-24 09:13:49]    Cython GPU                  0.033 s   4950 biclústeres
+[2026-10-24 09:13:49] [29/78] 100x100_var5.csv
+[2026-10-24 09:13:59]    CPU Secuencial              7.681 s   4950 biclústeres
+[2026-10-24 09:14:05]    Numba Paralelo CPU          0.033 s   4950 biclústeres
+[2026-10-24 09:14:08]    Numba GPU                   0.033 s   4950 biclústeres
+[2026-10-24 09:14:10]    Cython Secuencial           0.126 s   4950 biclústeres
+[2026-10-24 09:14:12]    Cython OpenMP               0.032 s   4950 biclústeres
+[2026-10-24 09:14:15]    Cython GPU                  0.032 s   4950 biclústeres
+[2026-10-24 09:14:15] [30/78] 100x100_var6.csv
+[2026-10-24 09:14:24]    CPU Secuencial              7.620 s   4950 biclústeres
+[2026-10-24 09:14:31]    Numba Paralelo CPU          0.034 s   4950 biclústeres
+[2026-10-24 09:14:34]    Numba GPU                   0.034 s   4950 biclústeres
+[2026-10-24 09:14:36]    Cython Secuencial           0.127 s   4950 biclústeres
+[2026-10-24 09:14:38]    Cython OpenMP               0.032 s   4950 biclústeres
+[2026-10-24 09:14:40]    Cython GPU                  0.033 s   4950 biclústeres
+[2026-10-24 09:14:40] [31/78] 100x400_var1.csv
+[2026-10-24 09:15:19]    CPU Secuencial             36.304 s   4950 biclústeres
+[2026-10-24 09:15:25]    Numba Paralelo CPU          0.150 s   4950 biclústeres
+[2026-10-24 09:15:29]    Numba GPU                   0.158 s   4950 biclústeres
+[2026-10-24 09:15:32]    Cython Secuencial           1.625 s   4950 biclústeres
+[2026-10-24 09:15:34]    Cython OpenMP               0.135 s   4950 biclústeres
+[2026-10-24 09:15:37]    Cython GPU                  0.144 s   4950 biclústeres
+[2026-10-24 09:15:37] [32/78] 100x400_var2.csv
+[2026-10-24 09:16:18]    CPU Secuencial             38.872 s   4950 biclústeres
+[2026-10-24 09:16:24]    Numba Paralelo CPU          0.157 s   4950 biclústeres
+[2026-10-24 09:16:28]    Numba GPU                   0.174 s   4950 biclústeres
+[2026-10-24 09:16:31]    Cython Secuencial           1.746 s   4950 biclústeres
+[2026-10-24 09:16:34]    Cython OpenMP               0.137 s   4950 biclústeres
+[2026-10-24 09:16:36]    Cython GPU                  0.157 s   4950 biclústeres
+[2026-10-24 09:16:36] [33/78] 100x400_var3.csv
+[2026-10-24 09:17:14]    CPU Secuencial             35.746 s   4950 biclústeres
+[2026-10-24 09:17:21]    Numba Paralelo CPU          0.148 s   4950 biclústeres
+[2026-10-24 09:17:24]    Numba GPU                   0.160 s   4950 biclústeres
+[2026-10-24 09:17:27]    Cython Secuencial           1.624 s   4950 biclústeres
+[2026-10-24 09:17:30]    Cython OpenMP               0.134 s   4950 biclústeres
+[2026-10-24 09:17:32]    Cython GPU                  0.145 s   4950 biclústeres
+[2026-10-24 09:17:32] [34/78] 100x400_var4.csv
+[2026-10-24 09:18:10]    CPU Secuencial             35.908 s   4950 biclústeres
+[2026-10-24 09:18:17]    Numba Paralelo CPU          0.165 s   4950 biclústeres
+[2026-10-24 09:18:20]    Numba GPU                   0.158 s   4950 biclústeres
+[2026-10-24 09:18:24]    Cython Secuencial           1.622 s   4950 biclústeres
+[2026-10-24 09:18:26]    Cython OpenMP               0.130 s   4950 biclústeres
+[2026-10-24 09:18:28]    Cython GPU                  0.144 s   4950 biclústeres
+[2026-10-24 09:18:28] [35/78] 100x400_var5.csv
+[2026-10-24 09:19:06]    CPU Secuencial             35.908 s   4950 biclústeres
+[2026-10-24 09:19:13]    Numba Paralelo CPU          0.181 s   4950 biclústeres
+[2026-10-24 09:19:16]    Numba GPU                   0.159 s   4950 biclústeres
+[2026-10-24 09:19:20]    Cython Secuencial           1.621 s   4950 biclústeres
+[2026-10-24 09:19:22]    Cython OpenMP               0.130 s   4950 biclústeres
+[2026-10-24 09:19:24]    Cython GPU                  0.145 s   4950 biclústeres
+[2026-10-24 09:19:24] [36/78] 100x400_var6.csv
+[2026-10-24 09:20:03]    CPU Secuencial             36.155 s   4950 biclústeres
+[2026-10-24 09:20:09]    Numba Paralelo CPU          0.150 s   4950 biclústeres
+[2026-10-24 09:20:12]    Numba GPU                   0.160 s   4950 biclústeres
+[2026-10-24 09:20:16]    Cython Secuencial           1.627 s   4950 biclústeres
+[2026-10-24 09:20:18]    Cython OpenMP               0.129 s   4950 biclústeres
+[2026-10-24 09:20:21]    Cython GPU                  0.145 s   4950 biclústeres
+[2026-10-24 09:20:21] [37/78] 200x200_var1.csv
+[2026-10-24 09:21:30]    CPU Secuencial             67.175 s   19900 biclústeres
+[2026-10-24 09:21:37]    Numba Paralelo CPU          0.239 s   19900 biclústeres
+[2026-10-24 09:21:40]    Numba GPU                   0.263 s   19900 biclústeres
+[2026-10-24 09:21:44]    Cython Secuencial           1.716 s   19900 biclústeres
+[2026-10-24 09:21:46]    Cython OpenMP               0.206 s   19900 biclústeres
+[2026-10-24 09:21:49]    Cython GPU                  0.173 s   19900 biclústeres
+[2026-10-24 09:21:49] [38/78] 200x200_var2.csv
+[2026-10-24 09:23:04]    CPU Secuencial             73.106 s   19900 biclústeres
+[2026-10-24 09:23:10]    Numba Paralelo CPU          0.231 s   19900 biclústeres
+[2026-10-24 09:23:14]    Numba GPU                   0.268 s   19900 biclústeres
+[2026-10-24 09:23:17]    Cython Secuencial           1.833 s   19900 biclústeres
+[2026-10-24 09:23:20]    Cython OpenMP               0.213 s   19900 biclústeres
+[2026-10-24 09:23:22]    Cython GPU                  0.178 s   19900 biclústeres
+[2026-10-24 09:23:22] [39/78] 200x200_var3.csv
+[2026-10-24 09:24:32]    CPU Secuencial             67.143 s   19900 biclústeres
+[2026-10-24 09:24:38]    Numba Paralelo CPU          0.258 s   19900 biclústeres
+[2026-10-24 09:24:41]    Numba GPU                   0.257 s   19900 biclústeres
+[2026-10-24 09:24:45]    Cython Secuencial           1.716 s   19900 biclústeres
+[2026-10-24 09:24:48]    Cython OpenMP               0.212 s   19900 biclústeres
+[2026-10-24 09:24:50]    Cython GPU                  0.172 s   19900 biclústeres
+[2026-10-24 09:24:50] [40/78] 200x200_var4.csv
+[2026-10-24 09:25:59]    CPU Secuencial             67.318 s   19900 biclústeres
+[2026-10-24 09:26:06]    Numba Paralelo CPU          0.224 s   19900 biclústeres
+[2026-10-24 09:26:09]    Numba GPU                   0.262 s   19900 biclústeres
+[2026-10-24 09:26:13]    Cython Secuencial           1.716 s   19900 biclústeres
+[2026-10-24 09:26:15]    Cython OpenMP               0.209 s   19900 biclústeres
+[2026-10-24 09:26:18]    Cython GPU                  0.173 s   19900 biclústeres
+[2026-10-24 09:26:18] [41/78] 200x200_var5.csv
+[2026-10-24 09:27:28]    CPU Secuencial             67.687 s   19900 biclústeres
+[2026-10-24 09:27:34]    Numba Paralelo CPU          0.223 s   19900 biclústeres
+[2026-10-24 09:27:38]    Numba GPU                   0.260 s   19900 biclústeres
+[2026-10-24 09:27:41]    Cython Secuencial           1.717 s   19900 biclústeres
+[2026-10-24 09:27:44]    Cython OpenMP               0.209 s   19900 biclústeres
+[2026-10-24 09:27:46]    Cython GPU                  0.173 s   19900 biclústeres
+[2026-10-24 09:27:46] [42/78] 200x200_var6.csv
+[2026-10-24 09:28:56]    CPU Secuencial             67.365 s   19900 biclústeres
+[2026-10-24 09:29:02]    Numba Paralelo CPU          0.224 s   19900 biclústeres
+[2026-10-24 09:29:05]    Numba GPU                   0.260 s   19900 biclústeres
+[2026-10-24 09:29:09]    Cython Secuencial           1.713 s   19900 biclústeres
+[2026-10-24 09:29:12]    Cython OpenMP               0.210 s   19900 biclústeres
+[2026-10-24 09:29:14]    Cython GPU                  0.172 s   19900 biclústeres
+[2026-10-24 09:29:14] [43/78] 400x100_var1.csv
+[2026-10-24 09:31:19]    CPU Secuencial            122.706 s   79800 biclústeres
+[2026-10-24 09:31:26]    Numba Paralelo CPU          0.517 s   79800 biclústeres
+[2026-10-24 09:31:29]    Numba GPU                   0.565 s   79800 biclústeres
+[2026-10-24 09:31:33]    Cython Secuencial           2.112 s   79800 biclústeres
+[2026-10-24 09:31:36]    Cython OpenMP               0.580 s   79800 biclústeres
+[2026-10-24 09:31:39]    Cython GPU                  0.539 s   79800 biclústeres
+[2026-10-24 09:31:39] [44/78] 400x100_var2.csv
+[2026-10-24 09:33:56]    CPU Secuencial            135.203 s   79800 biclústeres
+[2026-10-24 09:34:03]    Numba Paralelo CPU          0.648 s   79800 biclústeres
+[2026-10-24 09:34:07]    Numba GPU                   0.568 s   79800 biclústeres
+[2026-10-24 09:34:11]    Cython Secuencial           2.238 s   79800 biclústeres
+[2026-10-24 09:34:14]    Cython OpenMP               0.593 s   79800 biclústeres
+[2026-10-24 09:34:17]    Cython GPU                  0.547 s   79800 biclústeres
+[2026-10-24 09:34:17] [45/78] 400x100_var3.csv
+[2026-10-24 09:36:21]    CPU Secuencial            122.566 s   79800 biclústeres
+[2026-10-24 09:36:28]    Numba Paralelo CPU          0.626 s   79800 biclústeres
+[2026-10-24 09:36:32]    Numba GPU                   0.568 s   79800 biclústeres
+[2026-10-24 09:36:36]    Cython Secuencial           2.119 s   79800 biclústeres
+[2026-10-24 09:36:39]    Cython OpenMP               0.574 s   79800 biclústeres
+[2026-10-24 09:36:42]    Cython GPU                  0.541 s   79800 biclústeres
+[2026-10-24 09:36:42] [46/78] 400x100_var4.csv
+[2026-10-24 09:38:46]    CPU Secuencial            122.212 s   79800 biclústeres
+[2026-10-24 09:38:53]    Numba Paralelo CPU          0.622 s   79800 biclústeres
+[2026-10-24 09:38:57]    Numba GPU                   0.564 s   79800 biclústeres
+[2026-10-24 09:39:01]    Cython Secuencial           2.126 s   79800 biclústeres
+[2026-10-24 09:39:04]    Cython OpenMP               0.586 s   79800 biclústeres
+[2026-10-24 09:39:06]    Cython GPU                  0.540 s   79800 biclústeres
+[2026-10-24 09:39:06] [47/78] 400x100_var5.csv
+[2026-10-24 09:41:11]    CPU Secuencial            122.827 s   79800 biclústeres
+[2026-10-24 09:41:18]    Numba Paralelo CPU          0.519 s   79800 biclústeres
+[2026-10-24 09:41:22]    Numba GPU                   0.570 s   79800 biclústeres
+[2026-10-24 09:41:26]    Cython Secuencial           2.112 s   79800 biclústeres
+[2026-10-24 09:41:29]    Cython OpenMP               0.572 s   79800 biclústeres
+[2026-10-24 09:41:32]    Cython GPU                  0.544 s   79800 biclústeres
+[2026-10-24 09:41:32] [48/78] 400x100_var6.csv
+[2026-10-24 09:43:35]    CPU Secuencial            121.659 s   79800 biclústeres
+[2026-10-24 09:43:42]    Numba Paralelo CPU          0.627 s   79800 biclústeres
+[2026-10-24 09:43:46]    Numba GPU                   0.568 s   79800 biclústeres
+[2026-10-24 09:43:50]    Cython Secuencial           2.116 s   79800 biclústeres
+[2026-10-24 09:43:53]    Cython OpenMP               0.573 s   79800 biclústeres
+[2026-10-24 09:43:56]    Cython GPU                  0.548 s   79800 biclústeres
+[2026-10-24 09:43:56] [49/78] 200x800_var1.csv
+[2026-10-24 09:49:32]    CPU Secuencial            334.350 s   19900 biclústeres
+[2026-10-24 09:49:40]    Numba Paralelo CPU          1.834 s   19900 biclústeres
+[2026-10-24 09:49:45]    Numba GPU                   1.135 s   19900 biclústeres
+[2026-10-24 09:50:12]    Cython Secuencial          25.814 s   19900 biclústeres
+[2026-10-24 09:50:16]    Cython OpenMP               1.592 s   19900 biclústeres
+[2026-10-24 09:50:20]    Cython GPU                  0.995 s   19900 biclústeres
+[2026-10-24 09:50:20] [50/78] 200x800_var2.csv
+[2026-10-24 09:56:21]    CPU Secuencial            359.265 s   19900 biclústeres
+[2026-10-24 09:56:29]    Numba Paralelo CPU          1.966 s   19900 biclústeres
+[2026-10-24 09:56:33]    Numba GPU                   1.227 s   19900 biclústeres
+[2026-10-24 09:57:03]    Cython Secuencial          27.723 s   19900 biclústeres
+[2026-10-24 09:57:07]    Cython OpenMP               1.695 s   19900 biclústeres
+[2026-10-24 09:57:11]    Cython GPU                  1.086 s   19900 biclústeres
+[2026-10-24 09:57:11] [51/78] 200x800_var3.csv
+[2026-10-24 10:02:47]    CPU Secuencial            334.049 s   19900 biclústeres
+[2026-10-24 10:02:55]    Numba Paralelo CPU          1.835 s   19900 biclústeres
+[2026-10-24 10:02:59]    Numba GPU                   1.133 s   19900 biclústeres
+[2026-10-24 10:03:27]    Cython Secuencial          25.806 s   19900 biclústeres
+[2026-10-24 10:03:31]    Cython OpenMP               1.588 s   19900 biclústeres
+[2026-10-24 10:03:34]    Cython GPU                  0.996 s   19900 biclústeres
+[2026-10-24 10:03:34] [52/78] 200x800_var4.csv
+[2026-10-24 10:09:15]    CPU Secuencial            339.179 s   19900 biclústeres
+[2026-10-24 10:09:24]    Numba Paralelo CPU          1.860 s   19900 biclústeres
+[2026-10-24 10:09:28]    Numba GPU                   1.128 s   19900 biclústeres
+[2026-10-24 10:09:56]    Cython Secuencial          25.845 s   19900 biclústeres
+[2026-10-24 10:10:00]    Cython OpenMP               1.594 s   19900 biclústeres
+[2026-10-24 10:10:03]    Cython GPU                  0.996 s   19900 biclústeres
+[2026-10-24 10:10:03] [53/78] 200x800_var5.csv
+[2026-10-24 10:15:39]    CPU Secuencial            333.602 s   19900 biclústeres
+[2026-10-24 10:15:47]    Numba Paralelo CPU          1.840 s   19900 biclústeres
+[2026-10-24 10:15:51]    Numba GPU                   1.134 s   19900 biclústeres
+[2026-10-24 10:16:19]    Cython Secuencial          25.828 s   19900 biclústeres
+[2026-10-24 10:16:23]    Cython OpenMP               1.590 s   19900 biclústeres
+[2026-10-24 10:16:26]    Cython GPU                  1.001 s   19900 biclústeres
+[2026-10-24 10:16:26] [54/78] 200x800_var6.csv
+[2026-10-24 10:21:58]    CPU Secuencial            330.283 s   19900 biclústeres
+[2026-10-24 10:22:07]    Numba Paralelo CPU          1.853 s   19900 biclústeres
+[2026-10-24 10:22:11]    Numba GPU                   1.129 s   19900 biclústeres
+[2026-10-24 10:22:39]    Cython Secuencial          25.836 s   19900 biclústeres
+[2026-10-24 10:22:42]    Cython OpenMP               1.594 s   19900 biclústeres
+[2026-10-24 10:22:46]    Cython GPU                  0.996 s   19900 biclústeres
+[2026-10-24 10:22:46] [55/78] 400x400_var1.csv
+[2026-10-24 10:32:32]    CPU Secuencial            583.952 s   79800 biclústeres
+[2026-10-24 10:32:41]    Numba Paralelo CPU          2.212 s   79800 biclústeres
+[2026-10-24 10:32:45]    Numba GPU                   1.547 s   79800 biclústeres
+[2026-10-24 10:33:13]    Cython Secuencial          26.244 s   79800 biclústeres
+[2026-10-24 10:33:18]    Cython OpenMP               2.053 s   79800 biclústeres
+[2026-10-24 10:33:22]    Cython GPU                  1.473 s   79800 biclústeres
+[2026-10-24 10:33:22] [56/78] 400x400_var2.csv
+[2026-10-24 10:43:50]    CPU Secuencial            626.691 s   79800 biclústeres
+[2026-10-24 10:43:59]    Numba Paralelo CPU          2.226 s   79800 biclústeres
+[2026-10-24 10:44:04]    Numba GPU                   1.644 s   79800 biclústeres
+[2026-10-24 10:44:34]    Cython Secuencial          28.190 s   79800 biclústeres
+[2026-10-24 10:44:38]    Cython OpenMP               2.150 s   79800 biclústeres
+[2026-10-24 10:44:42]    Cython GPU                  1.566 s   79800 biclústeres
+[2026-10-24 10:44:42] [57/78] 400x400_var3.csv
+[2026-10-24 10:54:18]    CPU Secuencial            573.874 s   79800 biclústeres
+[2026-10-24 10:54:27]    Numba Paralelo CPU          2.209 s   79800 biclústeres
+[2026-10-24 10:54:31]    Numba GPU                   1.547 s   79800 biclústeres
+[2026-10-24 10:55:00]    Cython Secuencial          26.225 s   79800 biclústeres
+[2026-10-24 10:55:04]    Cython OpenMP               2.042 s   79800 biclústeres
+[2026-10-24 10:55:08]    Cython GPU                  1.472 s   79800 biclústeres
+[2026-10-24 10:55:08] [58/78] 400x400_var4.csv
+[2026-10-24 11:04:42]    CPU Secuencial            571.874 s   79800 biclústeres
+[2026-10-24 11:04:50]    Numba Paralelo CPU          2.200 s   79800 biclústeres
+[2026-10-24 11:04:55]    Numba GPU                   1.546 s   79800 biclústeres
+[2026-10-24 11:05:23]    Cython Secuencial          26.238 s   79800 biclústeres
+[2026-10-24 11:05:27]    Cython OpenMP               2.046 s   79800 biclústeres
+[2026-10-24 11:05:31]    Cython GPU                  1.476 s   79800 biclústeres
+[2026-10-24 11:05:31] [59/78] 400x400_var5.csv
+[2026-10-24 11:15:09]    CPU Secuencial            576.038 s   79800 biclústeres
+[2026-10-24 11:15:18]    Numba Paralelo CPU          2.207 s   79800 biclústeres
+[2026-10-24 11:15:23]    Numba GPU                   1.526 s   79800 biclústeres
+[2026-10-24 11:15:51]    Cython Secuencial          26.234 s   79800 biclústeres
+[2026-10-24 11:15:55]    Cython OpenMP               2.058 s   79800 biclústeres
+[2026-10-24 11:15:59]    Cython GPU                  1.476 s   79800 biclústeres
+[2026-10-24 11:15:59] [60/78] 400x400_var6.csv
+[2026-10-24 11:25:33]    CPU Secuencial            572.329 s   79800 biclústeres
+[2026-10-24 11:25:42]    Numba Paralelo CPU          2.205 s   79800 biclústeres
+[2026-10-24 11:25:47]    Numba GPU                   1.538 s   79800 biclústeres
+[2026-10-24 11:26:15]    Cython Secuencial          26.264 s   79800 biclústeres
+[2026-10-24 11:26:19]    Cython OpenMP               2.064 s   79800 biclústeres
+[2026-10-24 11:26:23]    Cython GPU                  1.483 s   79800 biclústeres
+[2026-10-24 11:26:23] [61/78] 800x200_var1.csv
+[2026-10-24 11:44:32]    CPU Secuencial           1087.030 s   319600 biclústeres
+[2026-10-24 11:44:42]    Numba Paralelo CPU          3.782 s   319600 biclústeres
+[2026-10-24 11:44:48]    Numba GPU                   3.125 s   319600 biclústeres
+[2026-10-24 11:45:18]    Cython Secuencial          27.813 s   319600 biclústeres
+[2026-10-24 11:45:24]    Cython OpenMP               3.584 s   319600 biclústeres
+[2026-10-24 11:45:30]    Cython GPU                  3.037 s   319600 biclústeres
+[2026-10-24 11:45:30] [62/78] 800x200_var2.csv
+[2026-10-24 12:05:13]    CPU Secuencial           1181.362 s   319600 biclústeres
+[2026-10-24 12:05:23]    Numba Paralelo CPU          3.864 s   319600 biclústeres
+[2026-10-24 12:05:30]    Numba GPU                   3.251 s   319600 biclústeres
+[2026-10-24 12:06:01]    Cython Secuencial          29.704 s   319600 biclústeres
+[2026-10-24 12:06:07]    Cython OpenMP               3.705 s   319600 biclústeres
+[2026-10-24 12:06:13]    Cython GPU                  3.150 s   319600 biclústeres
+[2026-10-24 12:06:13] [63/78] 800x200_var3.csv
+[2026-10-24 12:24:15]    CPU Secuencial           1080.492 s   319600 biclústeres
+[2026-10-24 12:24:26]    Numba Paralelo CPU          3.749 s   319600 biclústeres
+[2026-10-24 12:24:32]    Numba GPU                   3.140 s   319600 biclústeres
+[2026-10-24 12:25:02]    Cython Secuencial          27.758 s   319600 biclústeres
+[2026-10-24 12:25:07]    Cython OpenMP               3.606 s   319600 biclústeres
+[2026-10-24 12:25:13]    Cython GPU                  3.068 s   319600 biclústeres
+[2026-10-24 12:25:13] [64/78] 800x200_var4.csv
+[2026-10-24 12:43:36]    CPU Secuencial           1100.928 s   319600 biclústeres
+[2026-10-24 12:43:46]    Numba Paralelo CPU          3.755 s   319600 biclústeres
+[2026-10-24 12:43:52]    Numba GPU                   3.140 s   319600 biclústeres
+[2026-10-24 12:44:22]    Cython Secuencial          27.838 s   319600 biclústeres
+[2026-10-24 12:44:28]    Cython OpenMP               3.617 s   319600 biclústeres
+[2026-10-24 12:44:33]    Cython GPU                  3.033 s   319600 biclústeres
+[2026-10-24 12:44:33] [65/78] 800x200_var5.csv
+[2026-10-24 13:02:51]    CPU Secuencial           1095.438 s   319600 biclústeres
+[2026-10-24 13:03:01]    Numba Paralelo CPU          3.748 s   319600 biclústeres
+[2026-10-24 13:03:07]    Numba GPU                   3.164 s   319600 biclústeres
+[2026-10-24 13:03:37]    Cython Secuencial          27.829 s   319600 biclústeres
+[2026-10-24 13:03:43]    Cython OpenMP               3.594 s   319600 biclústeres
+[2026-10-24 13:03:48]    Cython GPU                  3.043 s   319600 biclústeres
+[2026-10-24 13:03:48] [66/78] 800x200_var6.csv
+[2026-10-24 13:22:10]    CPU Secuencial           1099.071 s   319600 biclústeres
+[2026-10-24 13:22:20]    Numba Paralelo CPU          3.807 s   319600 biclústeres
+[2026-10-24 13:22:26]    Numba GPU                   3.145 s   319600 biclústeres
+[2026-10-24 13:22:56]    Cython Secuencial          27.879 s   319600 biclústeres
+[2026-10-24 13:23:02]    Cython OpenMP               3.631 s   319600 biclústeres
+[2026-10-24 13:23:07]    Cython GPU                  3.053 s   319600 biclústeres
+[2026-10-24 13:23:07] [67/78] 800x800_var1.csv
+[2026-10-24 13:53:07]    CPU Secuencial       TIMEOUT (>0.5h)
+[2026-10-24 13:53:40]    Numba Paralelo CPU         26.553 s   319600 biclústeres
+[2026-10-24 13:54:09]    Numba GPU                  25.050 s   319600 biclústeres
+[2026-10-24 14:01:06]    Cython Secuencial         415.117 s   319600 biclústeres
+[2026-10-24 14:01:34]    Cython OpenMP              25.744 s   319600 biclústeres
+[2026-10-24 14:01:55]    Cython GPU                 18.122 s   319600 biclústeres
+[2026-10-24 14:01:55] [68/78] 800x800_var2.csv
+[2026-10-24 14:01:55]    CPU Secuencial       omitido: superó el límite en una matriz menor
+[2026-10-24 14:02:29]    Numba Paralelo CPU         28.216 s   319600 biclústeres
+[2026-10-24 14:03:00]    Numba GPU                  26.978 s   319600 biclústeres
+[2026-10-24 14:10:27]    Cython Secuencial         444.855 s   319600 biclústeres
+[2026-10-24 14:10:56]    Cython OpenMP              27.370 s   319600 biclústeres
+[2026-10-24 14:11:19]    Cython GPU                 19.676 s   319600 biclústeres
+[2026-10-24 14:11:19] [69/78] 800x800_var3.csv
+[2026-10-24 14:11:19]    CPU Secuencial       omitido: superó el límite en una matriz menor
+[2026-10-24 14:11:52]    Numba Paralelo CPU         26.527 s   319600 biclústeres
+[2026-10-24 14:12:20]    Numba GPU                  25.174 s   319600 biclústeres
+[2026-10-24 14:19:17]    Cython Secuencial         414.680 s   319600 biclústeres
+[2026-10-24 14:19:45]    Cython OpenMP              25.744 s   319600 biclústeres
+[2026-10-24 14:20:06]    Cython GPU                 18.134 s   319600 biclústeres
+[2026-10-24 14:20:06] [70/78] 800x800_var4.csv
+[2026-10-24 14:20:06]    CPU Secuencial       omitido: superó el límite en una matriz menor
+[2026-10-24 14:20:39]    Numba Paralelo CPU         26.537 s   319600 biclústeres
+[2026-10-24 14:21:07]    Numba GPU                  25.200 s   319600 biclústeres
+[2026-10-24 14:28:04]    Cython Secuencial         414.721 s   319600 biclústeres
+[2026-10-24 14:28:32]    Cython OpenMP              25.733 s   319600 biclústeres
+[2026-10-24 14:28:53]    Cython GPU                 18.104 s   319600 biclústeres
+[2026-10-24 14:28:53] [71/78] 800x800_var5.csv
+[2026-10-24 14:28:53]    CPU Secuencial       omitido: superó el límite en una matriz menor
+[2026-10-24 14:29:26]    Numba Paralelo CPU         26.569 s   319600 biclústeres
+[2026-10-24 14:29:54]    Numba GPU                  25.170 s   319600 biclústeres
+[2026-10-24 14:36:51]    Cython Secuencial         414.983 s   319600 biclústeres
+[2026-10-24 14:37:20]    Cython OpenMP              25.753 s   319600 biclústeres
+[2026-10-24 14:37:40]    Cython GPU                 18.171 s   319600 biclústeres
+[2026-10-24 14:37:40] [72/78] 800x800_var6.csv
+[2026-10-24 14:37:40]    CPU Secuencial       omitido: superó el límite en una matriz menor
+[2026-10-24 14:38:13]    Numba Paralelo CPU         26.638 s   319600 biclústeres
+[2026-10-24 14:38:42]    Numba GPU                  25.249 s   319600 biclústeres
+[2026-10-24 14:45:39]    Cython Secuencial         414.535 s   319600 biclústeres
+[2026-10-24 14:46:07]    Cython OpenMP              25.732 s   319600 biclústeres
+[2026-10-24 14:46:27]    Cython GPU                 18.179 s   319600 biclústeres
+[2026-10-24 14:46:27] [73/78] 1000x1000_var1.csv
+[2026-10-24 14:46:27]    CPU Secuencial       omitido: superó el límite en una matriz menor
+[2026-10-24 14:47:36]    Numba Paralelo CPU         62.104 s   499500 biclústeres
+[2026-10-24 14:49:03]    Numba GPU                  83.557 s   499500 biclústeres
+[2026-10-24 15:05:57]    Cython Secuencial        1011.108 s   499500 biclústeres
+[2026-10-24 15:06:59]    Cython OpenMP              60.378 s   499500 biclústeres
+[2026-10-24 15:07:52]    Cython GPU                 49.712 s   499500 biclústeres
+[2026-10-24 15:07:52] [74/78] 1000x1000_var2.csv
+[2026-10-24 15:07:52]    CPU Secuencial       omitido: superó el límite en una matriz menor
+[2026-10-24 15:09:05]    Numba Paralelo CPU         66.337 s   499500 biclústeres
+[2026-10-24 15:10:38]    Numba GPU                  89.835 s   499500 biclústeres
+[2026-10-24 15:28:47]    Cython Secuencial        1086.226 s   499500 biclústeres
+[2026-10-24 15:29:53]    Cython OpenMP              64.377 s   499500 biclústeres
+[2026-10-24 15:30:50]    Cython GPU                 53.682 s   499500 biclústeres
+[2026-10-24 15:30:50] [75/78] 1000x1000_var3.csv
+[2026-10-24 15:30:50]    CPU Secuencial       omitido: superó el límite en una matriz menor
+[2026-10-24 15:31:59]    Numba Paralelo CPU         62.248 s   499500 biclústeres
+[2026-10-24 15:33:26]    Numba GPU                  83.731 s   499500 biclústeres
+[2026-10-24 15:50:21]    Cython Secuencial        1012.777 s   499500 biclústeres
+[2026-10-24 15:51:24]    Cython OpenMP              60.368 s   499500 biclústeres
+[2026-10-24 15:52:16]    Cython GPU                 49.479 s   499500 biclústeres
+[2026-10-24 15:52:16] [76/78] 1000x1000_var4.csv
+[2026-10-24 15:52:16]    CPU Secuencial       omitido: superó el límite en una matriz menor
+[2026-10-24 15:53:25]    Numba Paralelo CPU         62.120 s   499500 biclústeres
+[2026-10-24 15:54:52]    Numba GPU                  83.778 s   499500 biclústeres
+[2026-10-24 16:11:46]    Cython Secuencial        1011.203 s   499500 biclústeres
+[2026-10-24 16:12:48]    Cython OpenMP              60.374 s   499500 biclústeres
+[2026-10-24 16:13:41]    Cython GPU                 49.812 s   499500 biclústeres
+[2026-10-24 16:13:41] [77/78] 1000x1000_var5.csv
+[2026-10-24 16:13:41]    CPU Secuencial       omitido: superó el límite en una matriz menor
+[2026-10-24 16:14:50]    Numba Paralelo CPU         62.179 s   499500 biclústeres
+[2026-10-24 16:16:17]    Numba GPU                  83.925 s   499500 biclústeres
+[2026-10-24 16:33:12]    Cython Secuencial        1012.454 s   499500 biclústeres
+[2026-10-24 16:34:15]    Cython OpenMP              60.371 s   499500 biclústeres
+[2026-10-24 16:35:07]    Cython GPU                 49.780 s   499500 biclústeres
+[2026-10-24 16:35:07] [78/78] 1000x1000_var6.csv
+[2026-10-24 16:35:07]    CPU Secuencial       omitido: superó el límite en una matriz menor
+[2026-10-24 16:36:16]    Numba Paralelo CPU         62.164 s   499500 biclústeres
+[2026-10-24 16:37:42]    Numba GPU                  82.502 s   499500 biclústeres
+[2026-10-24 16:54:37]    Cython Secuencial        1012.578 s   499500 biclústeres
+[2026-10-24 16:55:40]    Cython OpenMP              60.483 s   499500 biclústeres
+[2026-10-24 16:56:32]    Cython GPU                 49.789 s   499500 biclústeres
+[2026-10-24 16:56:32] === FIN BCCA en 7:53:37 ===

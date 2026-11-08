@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Matrices sintéticas (se generan con benchmark/generar_matrices_*.py)
+benchmark/matrices_bibit/
+benchmark/matrices_bcca/
+benchmark/resultados_smoke/
+
+# LaTeX
+*.aux
+*.log
+!benchmark/resultados/*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.vrb
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Secretos y sistema
+.env
+*.pem
+.DS_Store
+~$*
